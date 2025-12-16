@@ -45,6 +45,10 @@ Make sure your server has the following channels:
 `monthly-goals`	- Monthly task submission
 
 Rename in `cogs/task_cog.py` and `cogs/reports_cog.py` if needed. 
+## Deployment
+
+Deploy using Railway and add env variables there.
+
 > This shit might have too many loopholes or bugs if you find any just fucking add some PR for me.
 ---
 
