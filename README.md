@@ -4,8 +4,10 @@ It helps teams track **daily, weekly, and monthly goals**, automatically calcula
 
 <img width="422" height="558" alt="2025-12-16_20-01" src="https://github.com/user-attachments/assets/829562e4-d4a9-4af6-a3ff-b5490a47c911" />
 ## Stack Used
+
 **GCD** (GPT, Claude, Deepseek) whichever premium ended jumped to next one.
 ## Features
+
 - **Daily, Weekly, and Monthly Task Tracking**
   - Users submit tasks in dedicated channels.
   - Mark tasks completed using `~~Task~~`.
