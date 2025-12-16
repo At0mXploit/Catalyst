@@ -32,7 +32,7 @@ class ReportsCog(commands.Cog):
     @tasks.loop(time=time(hour=0, minute=0, tzinfo=NEPAL_TZ))
     async def daily_report(self):
         data = load_data()
-        channel = self.get_channel("daily-tasks")
+        channel = self.get_channel("daily-goals")
         if not channel:
             return
 
@@ -79,7 +79,7 @@ class ReportsCog(commands.Cog):
     @tasks.loop(time=time(hour=0, minute=0, tzinfo=NEPAL_TZ))
     async def weekly_report(self):
         data = load_data()
-        channel = self.get_channel("weekly-tasks")
+        channel = self.get_channel("weekly-goals")
         if not channel:
             return
 
@@ -108,7 +108,7 @@ class ReportsCog(commands.Cog):
     @tasks.loop(time=time(hour=0, minute=0, tzinfo=NEPAL_TZ))
     async def monthly_report(self):
         data = load_data()
-        channel = self.get_channel("monthly-tasks")
+        channel = self.get_channel("monthly-goals")
         if not channel:
             return
 
