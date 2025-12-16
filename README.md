@@ -3,6 +3,7 @@ Catalyst Bot is a Discord bot for task management, leave tracking, and fine calc
 It helps teams track **daily, weekly, and monthly goals**, automatically calculates fines for missed tasks, and provides reports.
 
 <img width="422" height="558" alt="2025-12-16_20-01" src="https://github.com/user-attachments/assets/829562e4-d4a9-4af6-a3ff-b5490a47c911" />
+
 ## Stack Used
 
 **GCD** (GPT, Claude, Deepseek) whichever premium ended jumped to next one.
